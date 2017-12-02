@@ -37,7 +37,7 @@ open class Person (val name:String, var age: Int): Signatory {
 
 fun main(args: Array<String>) {
     val p = Person("Toniya",18,true)
-   // p.sign()
+    p.sign()
     p.age = 20
     p.sign()
 
